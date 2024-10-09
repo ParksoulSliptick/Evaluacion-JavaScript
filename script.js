@@ -1,23 +1,14 @@
-var nombre = ("Alejandro");
-var edad = ("20");
-var estudiaste = true;
+let nombre = prompt("¿Cual es tu nombre?")
+let edad = prompt("¿Cual es tu edad?")
+let estudiaste = true;
 
-console.log(nombre);
-console.log(edad);
-console.log(estudiaste);
+console.log("¡Hola, soy " + nombre  +  " y tengo " + edad  + " años!") 
 
-let saludo = 'Hola soy ${"nombre"} y tengo {"edad"}';
-console.log(saludo)
-
-let si = '{$nombre}si vas a aprobar la materia';
-let no = '{$nombre}no vas a aprobar la materia';
-if (estudiaste > false);
-{
-    alert(no);
+if(estudiaste) {
+    alert(nombre + "si estudiaste! Pasaras la materia!")
 } else {
-    alert (si);
+    alert(nombre + "no estudiaste! Reprobaras la materia!")
 }
-
 
 
 
